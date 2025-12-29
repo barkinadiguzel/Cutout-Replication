@@ -1,3 +1,6 @@
+# This module is used to extract intermediate feature maps from the backbone
+# in order to analyze how Cutout affects spatial attention and feature usage.
+
 import torch.nn as nn
 
 class FeatureExtractor(nn.Module):
